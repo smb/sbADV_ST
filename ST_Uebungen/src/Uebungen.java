@@ -42,6 +42,9 @@ public class Uebungen {
 		printResult("SELECT SORTE, MIN(PREIS) FROM " + TABLEPREFIX
 				+ "PFLANZEN GROUP BY SORTE");
 
+		
+		
+		
 	}
 
 	private static void printResult(String sqlString) {
