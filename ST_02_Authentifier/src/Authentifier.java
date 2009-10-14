@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class Authentifier {
 
 	private static Connection con = null;
-	//private static String DATABASE = "jdbc:oracle:thin:@nora:1521:oracle";
-	private static String DATABASE = "jdbc:oracle:thin:@192.168.0.99:1521:XE";
+	private static String DATABASE = "jdbc:oracle:thin:@nora:1521:oracle";
+	//private static String DATABASE = "jdbc:oracle:thin:@192.168.0.99:1521:XE";
 	private static String USERNAME = "buehls";
 	private static String PASSWORD = "buehls";
 	private static String TABLE = "ST_02_AUTHENTIFIER_TUSER";
